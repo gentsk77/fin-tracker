@@ -1,7 +1,5 @@
 Fin-Tracker is a personal finance app on Next.js, Plaid and Supabase that pulls my bank and investment accounts into one place, with a tax-aware rebalancer that suggests contribution-only trades.
 
-![Overview page](docs/overview.png)
-
 ## Features
 
 - **Account linking via Plaid.** Connect checking, savings, credit card, loan, brokerage and retirement accounts through Plaid Link. Access tokens are exchanged and encrypted on the server, connections re-sync automatically when they are more than 6 hours old, and a connection can be unlinked at any time.
@@ -88,7 +86,6 @@ The app uses the Next.js App Router, with signed-in pages under the `src/app/(ap
 
 ```
 .
-├── docs/                 # Screenshots for this README
 ├── public/               # Static assets
 ├── src/
 │   ├── app/              # App Router: landing, auth pages, (app) route group
